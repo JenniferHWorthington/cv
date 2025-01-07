@@ -79,3 +79,18 @@ body {
   width: auto;
   border-radius: 5%;
 }
+
+
+/* CSS for skills.html */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 7.5%;
+}
+
+.technologies {
+  padding: 16px;
+}
