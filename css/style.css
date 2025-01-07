@@ -1,7 +1,7 @@
 /* Common CSS for all pages */
 
 html {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1% 7.5%;
+  background-color: rgb(120, 0, 180);
 }
 
 .logo {
@@ -35,6 +36,7 @@ body {
 .logo-text {
   font-size: 18px;
   font-weight: 500;
+  color:azure;
 }
 
 .nav ul {
@@ -44,7 +46,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: midnightblue;
+  color: aliceblue;
 }
 
 .nav a:hover {
@@ -55,7 +57,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1% 7.5%;
+  padding: 3% 7.5%;
 }
 
 .footer {
@@ -71,7 +73,7 @@ body {
   max-width: 600px;
   font-family: "Roboto", serif;
   font-style: italic;
-  font-size: 36px;
+  font-size: 48px;
 }
 
 .index-img {
@@ -83,14 +85,28 @@ body {
 
 /* CSS for skills.html */
 
-.skills {
+#skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1% 7.5%;
+  padding: 3% 7.5%;
+  background-color: rgb(120, 0, 180);
+  color: azure;
+}
+
+.skills-heading {
+  padding: 16px;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 .technologies {
   padding: 16px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#skills li {
+  font-size: 24px;
 }
