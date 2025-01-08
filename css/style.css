@@ -65,6 +65,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1% 7.5%;
+  background-color: rgb(120, 0, 180);
+  color: azure;
 }
 
 /* CSS for main section */
@@ -130,4 +132,27 @@ body {
 
 #experience li {
   font-size: 24px;
+}
+
+/* CSS for about section */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 7.5%;
+  background-color: rgb(120, 0, 180);
+  color: azure;
+}
+
+.about-heading {
+  padding: 16px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#about p {
+  font-size: 24px;
+  max-width: 600px;
 }
