@@ -67,7 +67,7 @@ body {
   padding: 1% 7.5%;
 }
 
-/* CSS for index.html */
+/* CSS for main section */
 
 .intro-text {
   max-width: 600px;
@@ -84,7 +84,7 @@ body {
 }
 
 
-/* CSS for skills.html */
+/* CSS for skills section */
 
 #skills {
   display: flex;
@@ -109,5 +109,25 @@ body {
 }
 
 #skills li {
+  font-size: 24px;
+}
+
+/* CSS for experience section */
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 7.5%;
+}
+
+.experience-heading {
+  padding: 16px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#experience li {
   font-size: 24px;
 }
