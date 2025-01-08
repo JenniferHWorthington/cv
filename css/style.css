@@ -77,9 +77,10 @@ body {
 }
 
 .index-img {
-  height: 700px;
+  max-height: 500px;
   width: auto;
   border-radius: 5%;
+  margin: 10% 0;
 }
 
 
