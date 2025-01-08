@@ -156,3 +156,23 @@ body {
   font-size: 24px;
   max-width: 600px;
 }
+
+/* CSS for contact section */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 7.5%;
+}
+
+.contact-heading {
+  padding: 16px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#contact li {
+  font-size: 24px;
+}
